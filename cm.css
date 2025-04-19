@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  overflow: hidden;
+}
+
+
+.container {
+  width: 100%;
+  height: 657px;
+  overflow: hidden;
+}
+
+.container video {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+
+
+/* title and txt section left */
+
+.container .container-txt {
+  width: 65%;
+  height: 840px;
+  background-color: rgba(0, 0, 0, 0.89);
+  position: absolute;
+  top: -100px;
+  left: -70px;
+  transform: rotate(10deg);
+}
+
+.container-txt .div-txt {
+  width: 500px;
+  height: 330px;
+  position: absolute;
+  top: 255px;
+  left: 230px;
+  text-align: left;
+  transform: rotate(-10deg);
+}
+.div-txt h1 {
+  color: whitesmoke;
+  font-size: 56px;
+  font-style: italic;
+}
+.div-txt p {
+  color: whitesmoke;
+  font-size: 21px;
+  margin-top: 15px;
+  line-height: 26px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.div-txt input[type="email"]{
+  width: 275px;
+  height: 60px;
+  outline: none;
+  padding: 10px 15px;
+  margin-top: 45px;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+.div-txt input[type="submit"]{
+  width: 115px;
+  height: 60px;
+  font-size: 18px;
+  outline: none;
+  color: whitesmoke;
+  padding: 10px 15px;
+  margin-top: 45px;
+  border-radius: 8px;
+  transition: all 0.6s;
+  border: 1px solid whitesmoke;
+  background-color: rgb(0, 81, 83);
+  box-shadow: 0 0 9px rgba(0, 148, 151, 0.534);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.div-txt input[type="submit"]:hover{
+  background-color: rgb(0, 149, 151);
+  box-shadow: 0 0 9px rgb(0, 149, 151);
+}
+
+/* icon section right */
+
+.container .container-icon {
+  width: 44%;
+  height: 840px;
+  background-color: rgba(77, 108, 109, 0.507);
+  position: absolute;
+  top: -100px;
+  right: -64px;
+  transform: rotate(10deg);
+}
+
+
+.container-icon .div-icon{
+  width: 100px;
+  height: 250px;
+  position: absolute;
+  top: 310px;
+  right: 100px;
+  text-align: left;
+  transform: rotate(-10deg);
+}
+
+.div-icon a i[class="fa fa-twitter"]{
+  color: whitesmoke;
+  font-size: 21px;
+  position: absolute;
+  top: 0;
+  left: 25px;
+  padding: 21px;
+  border-radius: 50%;
+  transition: all 0.6s;
+  background-color: black;
+  border:2px solid whitesmoke;
+
+}
+
+.div-icon a i[class="fa fa-facebook"]{
+  color: whitesmoke;
+  font-size: 21px;
+  position: absolute;
+  top: 90px;
+  left: 25px;
+  padding: 21px 25px;
+  border-radius: 50%;
+  transition: all 0.6s;
+  background-color: black;
+  border:2px solid whitesmoke;
+}
+
+
+.div-icon a i[class="fa fa-instagram"]{
+  color: whitesmoke;
+  font-size: 21px;
+  position: absolute;
+  bottom: 0;
+  left: 25px;
+  padding: 21px;
+  border-radius: 50%;
+  transition: all 0.6s;
+  background-color: black;
+  border: 2px solid whitesmoke;
+}
+
+
+.div-icon a{
+  text-decoration: none;
+}
+
+.div-icon a i:hover{
+  color: black;
+  background-color: whitesmoke;
+  border: 2px solid black;
+}
